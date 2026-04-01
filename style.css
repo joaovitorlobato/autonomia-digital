@@ -507,3 +507,45 @@ html,body { height:100%; font-family:'Nunito',sans-serif; background:#A5D6A7; }
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:2px}
+/* ============================
+   RESPONSIVIDADE (TABLETS E DESKTOPS)
+   ============================ */
+@media (min-width: 768px) {
+  
+  /* 1. Alarga o container principal */
+  #app {
+    max-width: 800px; /* Deixa o app mais largo no PC */
+    border-radius: 24px; /* Arredonda as bordas da tela toda */
+    margin: 40px auto; /* Dá um espaço em cima e embaixo */
+    min-height: calc(100vh - 80px); /* Ajusta a altura */
+  }
+
+  /* 2. Coloca os cards de temas lado a lado (Grid) */
+  .themes-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas iguais */
+    gap: 16px;
+  }
+
+  /* 3. Ajusta o header da Home para aproveitar o espaço */
+  .home-hdr {
+    border-radius: 24px 24px 0 0; /* Arredonda o topo */
+  }
+
+  /* 4. Ajusta o menu inferior */
+  .bottom-nav {
+    border-radius: 0 0 24px 24px; /* Arredonda o fundo */
+  }
+}
+
+/* Telas ainda maiores (Monitores Grandes) */
+@media (min-width: 1024px) {
+  #app {
+    max-width: 1000px;
+  }
+  
+  /* Coloca os cards em 3 colunas */
+  .themes-list {
+    grid-template-columns: 1fr 1fr 1fr; 
+  }
+}
