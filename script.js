@@ -5,13 +5,13 @@
 const THEMES = [
   {
     id:1, title:"Como Criar sua Conta", sub:"Aprenda a se cadastrar no aplicativo",
-    icon:"👤", color:"#1976D2", alwaysUnlocked:true, steps:5,
+    icon:"", color:"#1976D2", alwaysUnlocked:true, steps:5,
     content:[
-      { emoji:"👋", title:"Bem-vindo ao Autonomia Digital!", text:"Este aplicativo foi criado para você aprender tecnologia de forma simples, no seu próprio ritmo, sem pressa. Vamos começar criando a sua conta!" },
-      { emoji:"📱", title:"Onde fica o botão de cadastro?", text:'Na tela inicial você encontrará um botão grande escrito "Criar Conta". Toque nele para começar o seu cadastro.' },
-      { emoji:"✍️", title:"Preencha seu nome completo", text:"Digite o seu nome e sobrenome no campo indicado. Use letras maiúsculas e minúsculas normalmente, como você escreve no papel." },
-      { emoji:"📧", title:"Digite seu e-mail", text:"O e-mail é como um endereço na internet. Exemplo: maria@gmail.com. Você usará ele para entrar no aplicativo toda vez que quiser aprender." },
-      { emoji:"🔐", title:"Crie uma senha segura", text:"A senha protege a sua conta. Use pelo menos 6 caracteres misturando letras e números. Exemplo: Maria123. Nunca compartilhe sua senha com ninguém!" }
+      { emoji:"", title:"Bem-vindo ao Autonomia Digital!", text:"Este aplicativo foi criado para você aprender tecnologia de forma simples, no seu próprio ritmo, sem pressa. Vamos começar criando a sua conta!" },
+      { emoji:"", title:"Onde fica o botão de cadastro?", text:'Na tela inicial você encontrará um botão grande escrito "Criar Conta". Toque nele para começar o seu cadastro.' },
+      { emoji:"", title:"Preencha seu nome completo", text:"Digite o seu nome e sobrenome no campo indicado. Use letras maiúsculas e minúsculas normalmente, como você escreve no papel." },
+      { emoji:"", title:"Digite seu e-mail", text:"O e-mail é como um endereço na internet. Exemplo: maria@gmail.com. Você usará ele para entrar no aplicativo toda vez que quiser aprender." },
+      { emoji:"", title:"Crie uma senha segura", text:"A senha protege a sua conta. Use pelo menos 6 caracteres misturando letras e números. Exemplo: Maria123. Nunca compartilhe sua senha com ninguém!" }
     ],
     quiz:[
       { q:"O que você precisa para criar uma conta?", opts:["E-mail e senha","Cartão de crédito","Número de CPF","Só o nome"], ans:0, exp:"Para criar uma conta, você precisa apenas de um e-mail e uma senha. Simples!" },
@@ -21,13 +21,13 @@ const THEMES = [
   },
   {
     id:2, title:"WhatsApp para Iniciantes", sub:"Troque mensagens com quem você ama",
-    icon:"💬", color:"#25D366", alwaysUnlocked:false, steps:5,
+    icon:"", color:"#25D366", alwaysUnlocked:false, steps:5,
     content:[
-      { emoji:"💬", title:"O que é o WhatsApp?", text:"WhatsApp é um aplicativo gratuito para trocar mensagens de texto, fotos, áudios e fazer videochamadas. É o mais usado no Brasil!" },
-      { emoji:"📱", title:"Como abrir o WhatsApp", text:"Procure o ícone verde com um telefone branco na tela do seu celular. Toque nele para abrir. Se não encontrar, verifique na Play Store." },
-      { emoji:"✉️", title:"Enviando uma mensagem de texto", text:"Toque no nome do contato que você quer falar. Depois, toque na caixa de texto na parte de baixo, escreva sua mensagem e toque na seta verde para enviar." },
-      { emoji:"🎤", title:"Enviando um áudio (sua voz)", text:"Em vez de digitar, você pode gravar sua voz! Toque e segure o ícone do microfone 🎤. Fale sua mensagem e solte o dedo para enviar." },
-      { emoji:"⚠️", title:"Cuidado com golpes no WhatsApp!", text:"Nunca clique em links desconhecidos recebidos pelo WhatsApp. Se alguém pedir dinheiro urgente, ligue para confirmar com a própria pessoa antes de qualquer ação." }
+      { emoji:"", title:"O que é o WhatsApp?", text:"WhatsApp é um aplicativo gratuito para trocar mensagens de texto, fotos, áudios e fazer videochamadas. É o mais usado no Brasil!" },
+      { emoji:"", title:"Como abrir o WhatsApp", text:"Procure o ícone verde com um telefone branco na tela do seu celular. Toque nele para abrir. Se não encontrar, verifique na Play Store." },
+      { emoji:"", title:"Enviando uma mensagem de texto", text:"Toque no nome do contato que você quer falar. Depois, toque na caixa de texto na parte de baixo, escreva sua mensagem e toque na seta verde para enviar." },
+      { emoji:"", title:"Enviando um áudio (sua voz)", text:"Em vez de digitar, você pode gravar sua voz! Toque e segure o ícone do microfone . Fale sua mensagem e solte o dedo para enviar." },
+      { emoji:"", title:"Cuidado com golpes no WhatsApp!", text:"Nunca clique em links desconhecidos recebidos pelo WhatsApp. Se alguém pedir dinheiro urgente, ligue para confirmar com a própria pessoa antes de qualquer ação." }
     ],
     quiz:[
       { q:"Como você envia uma mensagem de voz no WhatsApp?", opts:["Tocando e segurando o microfone","Ligando para o contato","Enviando um e-mail","Tocando na seta verde"], ans:0, exp:"Para enviar áudio: toque e segure o ícone do microfone, fale e solte!" },
@@ -37,12 +37,12 @@ const THEMES = [
   },
   {
     id:3, title:"Como Baixar Aplicativos", sub:"Instale apps seguros no seu celular",
-    icon:"📲", color:"#FF6F00", alwaysUnlocked:false, steps:4,
+    icon:"", color:"#FF6F00", alwaysUnlocked:false, steps:4,
     content:[
-      { emoji:"🏪", title:"O que é a Play Store?", text:"A Play Store é a loja oficial de aplicativos do Android. É segura, gratuita e tem milhares de apps para você baixar no celular." },
-      { emoji:"🔍", title:"Como encontrar a Play Store", text:'Procure o ícone colorido com um triângulo (▶) na tela do seu celular com as cores azul, verde, amarelo e vermelho. Toque nele para abrir.' },
-      { emoji:"🔎", title:"Buscando um aplicativo", text:'Na parte de cima da Play Store tem uma barra de busca. Toque nela, escreva o nome do aplicativo que você quer (exemplo: "WhatsApp") e toque na lupa.' },
-      { emoji:"⬇️", title:"Instalando o aplicativo", text:'Após encontrar o app desejado, toque no botão verde "Instalar". Aguarde o download terminar. O ícone do app aparecerá automaticamente na tela do celular!' }
+      { emoji:"", title:"O que é a Play Store?", text:"A Play Store é a loja oficial de aplicativos do Android. É segura, gratuita e tem milhares de apps para você baixar no celular." },
+      { emoji:"", title:"Como encontrar a Play Store", text:'Procure o ícone colorido com um triângulo (▶) na tela do seu celular com as cores azul, verde, amarelo e vermelho. Toque nele para abrir.' },
+      { emoji:"", title:"Buscando um aplicativo", text:'Na parte de cima da Play Store tem uma barra de busca. Toque nela, escreva o nome do aplicativo que você quer (exemplo: "WhatsApp") e toque na lupa.' },
+      { emoji:"⬇", title:"Instalando o aplicativo", text:'Após encontrar o app desejado, toque no botão verde "Instalar". Aguarde o download terminar. O ícone do app aparecerá automaticamente na tela do celular!' }
     ],
     quiz:[
       { q:"Onde você encontra aplicativos seguros para baixar?", opts:["Em qualquer site da internet","Na Play Store","Por e-mail","Em mensagens do WhatsApp"], ans:1, exp:"A Play Store é a loja oficial e segura para baixar aplicativos no Android." },
@@ -52,13 +52,13 @@ const THEMES = [
   },
   {
     id:4, title:"Usar o Pix", sub:"Transfira dinheiro de forma rápida e segura",
-    icon:"💸", color:"#00897B", alwaysUnlocked:false, steps:5,
+    icon:"", color:"#00897B", alwaysUnlocked:false, steps:5,
     content:[
-      { emoji:"💳", title:"O que é o Pix?", text:"Pix é uma forma de transferir dinheiro instantaneamente pelo celular, criado pelo Banco Central do Brasil. Funciona 24 horas por dia, todos os dias!" },
-      { emoji:"🏦", title:"Como acessar o Pix", text:"Abra o aplicativo do seu banco no celular. Procure o menu 'Pix' ou 'Transferir'. Cada banco tem visual diferente, mas o Pix está disponível em todos." },
-      { emoji:"🔑", title:"O que é uma chave Pix?", text:"A chave Pix é como o seu 'endereço' para receber dinheiro. Pode ser seu CPF, número de telefone ou e-mail. Você cadastra uma chave nas configurações do seu banco." },
-      { emoji:"📤", title:"Fazendo uma transferência", text:"Toque em 'Pix > Transferir'. Digite a chave de quem vai receber. Confirme o nome completo da pessoa e o valor. Autentique com sua senha ou digital." },
-      { emoji:"🛡️", title:"Atenção: golpes do Pix!", text:"NUNCA faça Pix para desconhecidos. Desconfie de promoções milagrosas. Antes de confirmar, verifique sempre o nome completo do destinatário na tela." }
+      { emoji:"", title:"O que é o Pix?", text:"Pix é uma forma de transferir dinheiro instantaneamente pelo celular, criado pelo Banco Central do Brasil. Funciona 24 horas por dia, todos os dias!" },
+      { emoji:"", title:"Como acessar o Pix", text:"Abra o aplicativo do seu banco no celular. Procure o menu 'Pix' ou 'Transferir'. Cada banco tem visual diferente, mas o Pix está disponível em todos." },
+      { emoji:"", title:"O que é uma chave Pix?", text:"A chave Pix é como o seu 'endereço' para receber dinheiro. Pode ser seu CPF, número de telefone ou e-mail. Você cadastra uma chave nas configurações do seu banco." },
+      { emoji:"", title:"Fazendo uma transferência", text:"Toque em 'Pix > Transferir'. Digite a chave de quem vai receber. Confirme o nome completo da pessoa e o valor. Autentique com sua senha ou digital." },
+      { emoji:"", title:"Atenção: golpes do Pix!", text:"NUNCA faça Pix para desconhecidos. Desconfie de promoções milagrosas. Antes de confirmar, verifique sempre o nome completo do destinatário na tela." }
     ],
     quiz:[
       { q:"O Pix funciona:", opts:["Só em dias úteis","24 horas por dia, todos os dias","Só pela manhã","Só em bancos grandes"], ans:1, exp:"O Pix funciona 24h por dia, 7 dias por semana, inclusive nos feriados!" },
@@ -68,12 +68,12 @@ const THEMES = [
   },
   {
     id:5, title:"Wi-Fi e Internet", sub:"Entenda e use a internet com segurança",
-    icon:"📶", color:"#283593", alwaysUnlocked:false, steps:4,
+    icon:"", color:"#283593", alwaysUnlocked:false, steps:4,
     content:[
-      { emoji:"📶", title:"O que é o Wi-Fi?", text:"Wi-Fi é uma conexão de internet sem fio. Quando você está em casa conectado ao Wi-Fi, não gasta os dados do seu celular. É mais rápido e mais barato!" },
+      { emoji:"", title:"O que é o Wi-Fi?", text:"Wi-Fi é uma conexão de internet sem fio. Quando você está em casa conectado ao Wi-Fi, não gasta os dados do seu celular. É mais rápido e mais barato!" },
       { emoji:"🔌", title:"Como conectar ao Wi-Fi em casa", text:'Abra as "Configurações" do celular (ícone de engrenagem ⚙️). Toque em "Wi-Fi". Encontre o nome da sua rede, toque nela e digite a senha da internet.' },
-      { emoji:"⚠️", title:"Wi-Fi público: atenção!", text:"Wi-Fi gratuito em shoppings e restaurantes pode ser perigoso. Nunca acesse seu banco nem faça pagamentos em redes Wi-Fi públicas desconhecidas." },
-      { emoji:"📡", title:"Usando os dados móveis", text:"Quando não há Wi-Fi disponível, seu celular usa a internet da operadora (dados móveis). Fique de olho no consumo para não ultrapassar seu plano." }
+      { emoji:"", title:"Wi-Fi público: atenção!", text:"Wi-Fi gratuito em shoppings e restaurantes pode ser perigoso. Nunca acesse seu banco nem faça pagamentos em redes Wi-Fi públicas desconhecidas." },
+      { emoji:"", title:"Usando os dados móveis", text:"Quando não há Wi-Fi disponível, seu celular usa a internet da operadora (dados móveis). Fique de olho no consumo para não ultrapassar seu plano." }
     ],
     quiz:[
       { q:"Qual a principal vantagem do Wi-Fi em casa?", opts:["É mais devagar","Não gasta os dados do celular","Funciona em qualquer lugar","Precisa de um cabo"], ans:1, exp:"Usando o Wi-Fi de casa, você não consome os dados do seu plano!" },
@@ -83,13 +83,13 @@ const THEMES = [
   },
   {
     id:6, title:"Segurança Digital", sub:"Proteja-se de golpes e fraudes",
-    icon:"🛡️", color:"#6A1B9A", alwaysUnlocked:false, steps:5,
+    icon:"", color:"#6A1B9A", alwaysUnlocked:false, steps:5,
     content:[
-      { emoji:"🛡️", title:"Por que a segurança digital importa?", text:"Existem pessoas mal-intencionadas na internet que tentam roubar dinheiro ou informações. Com conhecimento, você pode se proteger muito bem!" },
-      { emoji:"🎣", title:"O golpe da mensagem falsa", text:'Mensagens como "Você ganhou um prêmio! Clique aqui" são quase sempre golpes. Nunca clique em links suspeitos, mesmo que pareçam ser de empresas conhecidas.' },
-      { emoji:"🔒", title:"Protegendo suas senhas", text:"Nunca anote suas senhas em papel perto do celular. Não use datas de nascimento como senha. Não compartilhe suas senhas com ninguém, nem com familiares." },
-      { emoji:"📞", title:"Cuidado com ligações falsas", text:'Bancos e operadoras NUNCA pedem sua senha por telefone. Se alguém ligar dizendo ser do banco e pedir sua senha, desligue imediatamente e ligue para o número oficial.' },
-      { emoji:"🆘", title:"O que fazer se cair em um golpe", text:"Não se envergonhe — pode acontecer com qualquer pessoa! Ligue imediatamente para o seu banco, registre um boletim de ocorrência e avise familiares de confiança." }
+      { emoji:"", title:"Por que a segurança digital importa?", text:"Existem pessoas mal-intencionadas na internet que tentam roubar dinheiro ou informações. Com conhecimento, você pode se proteger muito bem!" },
+      { emoji:"", title:"O golpe da mensagem falsa", text:'Mensagens como "Você ganhou um prêmio! Clique aqui" são quase sempre golpes. Nunca clique em links suspeitos, mesmo que pareçam ser de empresas conhecidas.' },
+      { emoji:"", title:"Protegendo suas senhas", text:"Nunca anote suas senhas em papel perto do celular. Não use datas de nascimento como senha. Não compartilhe suas senhas com ninguém, nem com familiares." },
+      { emoji:"", title:"Cuidado com ligações falsas", text:'Bancos e operadoras NUNCA pedem sua senha por telefone. Se alguém ligar dizendo ser do banco e pedir sua senha, desligue imediatamente e ligue para o número oficial.' },
+      { emoji:"", title:"O que fazer se cair em um golpe", text:"Não se envergonhe — pode acontecer com qualquer pessoa! Ligue imediatamente para o seu banco, registre um boletim de ocorrência e avise familiares de confiança." }
     ],
     quiz:[
       { q:'Você recebeu: "Parabéns! Você ganhou R$1.000! Clique aqui". O que você faz?', opts:["Clico imediatamente para receber","Ignoro e não clico no link","Compartilho com todos os amigos","Pago uma taxa para receber"], ans:1, exp:"Mensagens de prêmios não solicitados são quase sempre golpes. Nunca clique!" },
@@ -265,7 +265,7 @@ const screens = {
   /* ---------- SPLASH ---------- */
   splash: () => `
     <div class="splash screen">
-      <div class="splash-logo">📱</div>
+      <div class="splash-logo"></div>
       <div class="splash-app">Autonomia Digital</div>
       <div class="splash-tag">Aprenda Tecnologia!</div>
       <div class="splash-loader"></div>
@@ -274,9 +274,9 @@ const screens = {
   /* ---------- ONBOARDING ---------- */
   onboarding: () => {
     const slides = [
-      { emoji:'🌟', title:'Bem-vindo!', text:'Este aplicativo foi criado especialmente para você aprender a usar a tecnologia com tranquilidade e segurança.' },
-      { emoji:'📚', title:'Aprenda no seu ritmo', text:'Cada tema tem etapas simples, com textos curtos e áudio explicativo. Você pode avançar, voltar e repetir quantas vezes quiser.' },
-      { emoji:'🏆', title:'Conquiste certificados!', text:'Ao completar cada tema e passar no quiz, você ganha um certificado digital. Vamos começar?' }
+      { emoji:'', title:'Bem-vindo!', text:'Este aplicativo foi criado especialmente para você aprender a usar a tecnologia com tranquilidade e segurança.' },
+      { emoji:'', title:'Aprenda no seu ritmo', text:'Cada tema tem etapas simples, com textos curtos e áudio explicativo. Você pode avançar, voltar e repetir quantas vezes quiser.' },
+      { emoji:'', title:'Conquiste certificados!', text:'Ao completar cada tema e passar no quiz, você ganha um certificado digital. Vamos começar?' }
     ];
     const s = slides[S.obSlide];
     const isLast = S.obSlide === slides.length - 1;
@@ -300,7 +300,7 @@ const screens = {
   /* ---------- WELCOME ---------- */
   welcome: () => `
     <div class="welcome screen">
-      <div class="welcome-logo">📱</div>
+      <div class="welcome-logo"></div>
       <div class="welcome-title">Autonomia Digital</div>
       <div class="welcome-sub">Aprenda tecnologia no seu ritmo</div>
       <div class="welcome-btns">
@@ -308,7 +308,7 @@ const screens = {
         <div class="welcome-sep">— já tenho conta —</div>
         <button class="btn btn-outline" onclick="navigate('login')">🔑 Entrar</button>
         <div class="welcome-sep">— ou —</div>
-        <button class="btn btn-outline" style="opacity:.8" onclick="enterGuest()">👀 Entrar como Visitante</button>
+        <button class="btn btn-outline" style="opacity:.8" onclick="enterGuest()"> Entrar como Visitante</button>
       </div>
       <div style="color:rgba(255,255,255,.6);font-size:var(--fz-xs);margin-top:8px;text-align:center">
         Contas de teste: maria@teste.com / joao@teste.com (senha: 123456)
@@ -323,7 +323,7 @@ const screens = {
         <div class="hdr-title">Entrar</div>
       </div>
       <div class="form-body">
-        <div class="form-title">Olá! 👋</div>
+        <div class="form-title">Olá! </div>
         <div class="form-sub">Digite seu e-mail e senha para continuar aprendendo.</div>
         <div id="login-err"></div>
         <div class="field">
@@ -349,7 +349,7 @@ const screens = {
         <div class="hdr-title">Criar Conta</div>
       </div>
       <div class="form-body">
-        <div class="form-title">Vamos começar! 🎉</div>
+        <div class="form-title">Vamos começar! </div>
         <div class="form-sub">Preencha seus dados para criar sua conta gratuita.</div>
         <div id="reg-err"></div>
         <div class="field">
@@ -381,7 +381,7 @@ const screens = {
         <div class="hdr-title">Recuperar Senha</div>
       </div>
       <div class="form-body">
-        <div class="form-title">Sem problema! 😊</div>
+        <div class="form-title">Sem problema! </div>
         <div class="form-sub">Digite seu e-mail e enviaremos instruções para redefinir sua senha.</div>
         <div id="forgot-msg"></div>
         <div class="field">
@@ -396,7 +396,7 @@ const screens = {
   home: () => {
     const user = S.user;
     const name = user ? user.name.split(' ')[0] : 'Visitante';
-    const tabLabels = ['📚 Disponíveis', '⏳ Iniciados', '✅ Concluídos'];
+    const tabLabels = [' Disponíveis', ' Iniciados', ' Concluídos'];
     const themesByTab = getThemesByTab();
     return `
       <div class="screen" style="background:var(--gray-100)">
@@ -404,10 +404,10 @@ const screens = {
           <div class="home-top">
             <div>
               <div class="home-greeting">Olá, bem-vindo(a)!</div>
-              <div class="home-name">${name} 👋</div>
+              <div class="home-name">${name} </div>
             </div>
             <div class="home-avatar" onclick="navigate('profile')" title="Perfil">
-              ${user ? '👤' : '🚶'}
+              ${user ? '' : ''}
             </div>
           </div>
           <div class="tabs">
@@ -429,7 +429,7 @@ const screens = {
     let btnLabel = '▶ Iniciar Tema';
     let btnFn = `startTheme(${t.id})`;
     if (status === 'started') { btnLabel = '▶ Continuar'; }
-    if (status === 'done')    { btnLabel = '🔄 Rever Tema'; }
+    if (status === 'done')    { btnLabel = ' Rever Tema'; }
     return `
       <div class="screen">
         <div class="hdr" style="background:${t.color}">
@@ -442,15 +442,15 @@ const screens = {
           <div class="th-sub">${t.sub}</div>
         </div>
         <div class="theme-info">
-          <div class="ti-row"><span class="ti-icon">📋</span> ${t.steps} etapas de conteúdo</div>
-          <div class="ti-row"><span class="ti-icon">❓</span> ${t.quiz.length} perguntas no quiz</div>
-          <div class="ti-row"><span class="ti-icon">⏱️</span> Aprox. ${t.steps * 2}–${t.steps * 3} minutos</div>
+          <div class="ti-row"><span class="ti-icon"></span> ${t.steps} etapas de conteúdo</div>
+          <div class="ti-row"><span class="ti-icon"></span> ${t.quiz.length} perguntas no quiz</div>
+          <div class="ti-row"><span class="ti-icon">⏱</span> Aprox. ${t.steps * 2}–${t.steps * 3} minutos</div>
           ${status === 'done' ? `<div class="ti-row"><span class="ti-icon">🏆</span> Concluído em ${prog?.date || '–'} · Acertos: ${prog?.score}/${t.quiz.length}</div>` : ''}
-          ${status === 'started' ? `<div class="ti-row"><span class="ti-icon">📊</span> Progresso: ${themeProgress(t.id)}%</div>` : ''}
+          ${status === 'started' ? `<div class="ti-row"><span class="ti-icon"></span> Progresso: ${themeProgress(t.id)}%</div>` : ''}
         </div>
         <div style="padding:0 18px 28px;display:flex;flex-direction:column;gap:10px">
           <button class="btn-full-green" onclick="${btnFn}">${btnLabel}</button>
-          ${status === 'done' ? `<button class="btn btn-ghost" onclick="startQuiz(${t.id})">📝 Refazer Quiz</button>` : ''}
+          ${status === 'done' ? `<button class="btn btn-ghost" onclick="startQuiz(${t.id})"> Refazer Quiz</button>` : ''}
         </div>
       </div>`;
   },
@@ -480,7 +480,7 @@ const screens = {
             </div>
           </div>
           <button class="audio-btn${S.audioPlaying?' playing':''}" id="audiobtn" onclick="toggleAudio()">
-            ${S.audioPlaying ? '⏸ Pausar Áudio' : '🔊 Ouvir Áudio'}
+            ${S.audioPlaying ? '⏸ Pausar Áudio' : ' Ouvir Áudio'}
           </button>
         </div>
         <div class="step-nav">
@@ -497,7 +497,7 @@ const screens = {
     const t = THEMES.find(x => x.id === S.theme);
     return `
       <div class="quiz-intro screen">
-        <div class="qi-icon">📝</div>
+        <div class="qi-icon"></div>
         <div class="qi-title">Hora do Quiz!</div>
         <div class="qi-text">Vamos ver o que você aprendeu sobre "${t.title}". Responda ${t.quiz.length} perguntas com calma. Você consegue!</div>
         <button class="btn btn-white btn-lg" onclick="startQuiz(${t.id})">Começar o Quiz →</button>
@@ -536,7 +536,7 @@ const screens = {
           </div>
           ${answered ? `
             <div class="quiz-feedback ${S.quizAnswers[S.quizIdx]?'ok':'err'}">
-              ${S.quizAnswers[S.quizIdx] ? '✅ Muito bem!' : '❌ Não foi dessa vez.'} ${q.exp}
+              ${S.quizAnswers[S.quizIdx] ? ' Muito bem!' : '❌ Não foi dessa vez.'} ${q.exp}
             </div>
             <button class="btn btn-green" onclick="nextQuiz()">
               ${S.quizIdx < t.quiz.length-1 ? 'Próxima Pergunta →' : 'Ver Resultado →'}
@@ -552,7 +552,7 @@ const screens = {
     const total = t.quiz.length;
     const pct = Math.round((correct/total)*100);
     const passed = pct >= 67;
-    const emoji = pct===100?'🏆':pct>=67?'🎉':'📚';
+    const emoji = pct===100?'':pct>=67?'':'';
     const st = stars(correct, total);
     const msg = pct===100 ? 'Perfeito! Você acertou tudo!' :
                 pct>=67   ? 'Parabéns! Você passou no quiz e desbloqueou o certificado!' :
@@ -572,10 +572,10 @@ const screens = {
           <div class="rs-title">${correct}/${total} acertos</div>
           <div class="rs-score">${pct}% de aproveitamento</div>
           <div class="rs-msg">${msg}</div>
-          ${justUnlocked ? `<div class="unlock-banner">🔓 Todos os temas foram desbloqueados!<br>Você já pode explorar todo o aplicativo!</div>` : ''}
+          ${justUnlocked ? `<div class="unlock-banner"> Todos os temas foram desbloqueados!<br>Você já pode explorar todo o aplicativo!</div>` : ''}
           ${passed ? `<div class="cert-wrap" style="margin:0;width:100%">
             <div class="cert-card">
-              <div class="cert-icon">🎓</div>
+              <div class="cert-icon"></div>
               <div class="cert-badge">CERTIFICADO DIGITAL</div>
               <div class="cert-title">Certificado de Conclusão</div>
               <div class="cert-body">Certificamos que</div>
@@ -585,8 +585,8 @@ const screens = {
             </div>
           </div>` : ''}
           <div class="rs-btns">
-            <button class="btn btn-green" onclick="navigate('home',{tab:0})">🏠 Voltar ao Início</button>
-            ${!passed ? `<button class="btn btn-ghost" onclick="startTheme(${t.id})">🔄 Rever Conteúdo</button>` : ''}
+            <button class="btn btn-green" onclick="navigate('home',{tab:0})"> Voltar ao Início</button>
+            ${!passed ? `<button class="btn btn-ghost" onclick="startTheme(${t.id})"> Rever Conteúdo</button>` : ''}
           </div>
         </div>
       </div>`;
@@ -606,7 +606,7 @@ const screens = {
           <div class="hdr-title">Meu Perfil</div>
         </div>
         <div class="profile-hero">
-          <div class="ph-avatar">👤</div>
+          <div class="ph-avatar"></div>
           <div class="ph-name">${user.name}</div>
           <div class="ph-email">${user.email}</div>
         </div>
@@ -617,7 +617,7 @@ const screens = {
         </div>
         <div class="profile-menu" style="margin-top:14px">
           ${history.length > 0 ? `
-          <div style="font-size:var(--fz-md);font-weight:800;color:var(--gray-700);padding:4px 0 2px">🏆 Temas Concluídos</div>
+          <div style="font-size:var(--fz-md);font-weight:800;color:var(--gray-700);padding:4px 0 2px"> Temas Concluídos</div>
           ${history.map(t=>`
             <div class="history-item">
               <div class="hi-icon">${t.icon}</div>
@@ -647,7 +647,7 @@ const screens = {
       </div>
       <div class="settings-body">
         <div class="scard">
-          <div class="scard-title">🔤 Tamanho do Texto</div>
+          <div class="scard-title"> Tamanho do Texto</div>
           <div class="srow">
             <div class="slabel">Tamanho das letras</div>
             <div class="sopts">
@@ -659,7 +659,7 @@ const screens = {
           </div>
         </div>
         <div class="scard">
-          <div class="scard-title">👁️ Visibilidade</div>
+          <div class="scard-title"> Visibilidade</div>
           <div class="srow">
             <div class="slabel">Alto contraste</div>
             <div class="toggle-wrap">
@@ -669,7 +669,7 @@ const screens = {
           </div>
         </div>
         <div class="scard">
-          <div class="scard-title">🔊 Áudio</div>
+          <div class="scard-title"> Áudio</div>
           <div class="srow">
             <div class="slabel">Som ligado</div>
             <div class="toggle-wrap">
@@ -702,9 +702,9 @@ const screens = {
    ============================================================ */
 function bottomNavHTML() {
   const items = [
-    { icon:'🏠', label:'Início', screen:'home' },
-    { icon:'👤', label:'Perfil', screen:'profile' },
-    { icon:'⚙️', label:'Config', screen:'settings' },
+    { icon:'', label:'Início', screen:'home' },
+    { icon:'', label:'Perfil', screen:'profile' },
+    { icon:'', label:'Config', screen:'settings' },
   ];
   const idx = S.navTab;
   return `<div class="bottom-nav">
@@ -717,9 +717,9 @@ function bottomNavHTML() {
 
 function emptyStateHTML() {
   const msgs = [
-    { icon:'🔒', text:'Complete o tema "Como Criar sua Conta" primeiro para desbloquear todos os temas!' },
-    { icon:'📖', text:'Nenhum tema em andamento ainda. Toque em "Disponíveis" e comece a aprender!' },
-    { icon:'🎯', text:'Nenhum tema concluído ainda. Complete um tema para ver aqui!' },
+    { icon:'', text:'Complete o tema "Como Criar sua Conta" primeiro para desbloquear todos os temas!' },
+    { icon:'', text:'Nenhum tema em andamento ainda. Toque em "Disponíveis" e comece a aprender!' },
+    { icon:'', text:'Nenhum tema concluído ainda. Complete um tema para ver aqui!' },
   ];
   const m = msgs[S.tab];
   return `<div class="empty"><div class="empty-icon">${m.icon}</div><div class="empty-text">${m.text}</div></div>`;
@@ -732,7 +732,7 @@ function themeCardHTML(t) {
   let statusLabel = '', statusCls = '';
   if (status === 'done')    { statusLabel='✓ Concluído'; statusCls='tc-done'; }
   if (status === 'started') { statusLabel='Em andamento'; statusCls='tc-prog'; }
-  if (locked)               { statusLabel='🔒'; statusCls='tc-lock'; }
+  if (locked)               { statusLabel=''; statusCls='tc-lock'; }
   return `
     <div class="theme-card${locked?' locked':''}" onclick="${locked?'lockedTheme()':'navigate(\'themeDetail\',{theme:'+t.id+'})'}" role="button">
       <div class="tc-icon" style="background:${t.color}22">${t.icon}</div>
@@ -803,13 +803,13 @@ function doForgot() {
   const email = $('femail')?.value?.trim();
   if (!email) { showErr('forgot-msg', 'Digite seu e-mail.'); return; }
   $('forgot-msg').innerHTML = `<div style="background:#E8F5E9;color:var(--green-dark);padding:12px;border-radius:10px;font-weight:600;font-size:var(--fz-md)">
-    ✉️ Se o e-mail estiver cadastrado, enviaremos instruções em breve.<br><br>
+     Se o e-mail estiver cadastrado, enviaremos instruções em breve.<br><br>
     <small>(Em produção: um e-mail seria enviado. Este é um protótipo.)</small>
   </div>`;
 }
 
 function doLogout() {
-  showModal('🚪', 'Sair da conta?', 'Tem certeza que deseja sair? Seu progresso está salvo.', [
+  showModal('', 'Sair da conta?', 'Tem certeza que deseja sair? Seu progresso está salvo.', [
     { label:'Sim, sair', cls:'btn-danger', fn:'confirmLogout()' },
     { label:'Cancelar', cls:'btn-gray', fn:'closeModal()' }
   ]);
@@ -835,7 +835,7 @@ function prevStep() {
 function nextStep() {
   const t = THEMES.find(x => x.id === S.theme);
   if (!S.user) {
-    showModal('🔒', 'Crie sua conta!', 'Para continuar aprendendo e salvar seu progresso, crie uma conta gratuita agora.', [
+    showModal('', 'Crie sua conta!', 'Para continuar aprendendo e salvar seu progresso, crie uma conta gratuita agora.', [
       { label:'Criar Conta', cls:'btn-green', fn:'closeModal();navigate("register")' },
       { label:'Continuar como visitante', cls:'btn-gray', fn:'closeModal();_guestNextStep()' }
     ]);
@@ -856,7 +856,7 @@ function _guestNextStep() {
 }
 
 function confirmLeave() {
-  showModal('⚠️', 'Sair do tema?', 'Seu progresso nesta etapa será salvo.', [
+  showModal('', 'Sair do tema?', 'Seu progresso nesta etapa será salvo.', [
     { label:'Sim, sair', cls:'btn-gray', fn:'closeModal();navigate("themeDetail",{theme:S.theme})' },
     { label:'Continuar estudando', cls:'btn-green', fn:'closeModal()' }
   ]);
@@ -898,7 +898,7 @@ function setNavTab(i) {
 
 function toggleAudio() {
   if (!S.settings.audioOn) {
-    showModal('🔇', 'Áudio desativado', 'Ative o áudio nas configurações para ouvir as explicações.', [
+    showModal('', 'Áudio desativado', 'Ative o áudio nas configurações para ouvir as explicações.', [
       { label:'Ir para Configurações', cls:'btn-green', fn:'closeModal();navigate("settings")' },
       { label:'Fechar', cls:'btn-gray', fn:'closeModal()' }
     ]);
@@ -907,7 +907,7 @@ function toggleAudio() {
   S.audioPlaying = !S.audioPlaying;
   const btn = $('audiobtn');
   if (btn) {
-    btn.textContent = S.audioPlaying ? '⏸ Pausar Áudio' : '🔊 Ouvir Áudio';
+    btn.textContent = S.audioPlaying ? '⏸ Pausar Áudio' : ' Ouvir Áudio';
     btn.className = 'audio-btn' + (S.audioPlaying?' playing':'');
   }
   if (S.audioPlaying) {
@@ -929,7 +929,7 @@ function speakText(text) {
   utt.onend = () => {
     S.audioPlaying = false;
     const btn = $('audiobtn');
-    if (btn) { btn.textContent='🔊 Ouvir Áudio'; btn.className='audio-btn'; }
+    if (btn) { btn.textContent=' Ouvir Áudio'; btn.className='audio-btn'; }
   };
   window.speechSynthesis.speak(utt);
 }
@@ -948,12 +948,12 @@ function toggleSetting(key) {
 
 function lockedTheme() {
   if (!S.user) {
-    showModal('🔒', 'Faça login primeiro!', 'Crie uma conta ou faça login e complete o primeiro tema para desbloquear todos os outros.', [
+    showModal('', 'Faça login primeiro!', 'Crie uma conta ou faça login e complete o primeiro tema para desbloquear todos os outros.', [
       { label:'Criar Conta', cls:'btn-green', fn:'closeModal();navigate("register")' },
       { label:'Fazer Login', cls:'btn-ghost', fn:'closeModal();navigate("login")' }
     ]);
   } else {
-    showModal('🔒', 'Tema Bloqueado', 'Complete o tema "Como Criar sua Conta" primeiro para desbloquear todos os temas!', [
+    showModal('', 'Tema Bloqueado', 'Complete o tema "Como Criar sua Conta" primeiro para desbloquear todos os temas!', [
       { label:'Ir para o 1º Tema', cls:'btn-green', fn:'closeModal();navigate("themeDetail",{theme:1})' },
       { label:'Fechar', cls:'btn-gray', fn:'closeModal()' }
     ]);
